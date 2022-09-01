@@ -1,9 +1,10 @@
 /*
 KRAFTWERK cravatta LED su Arduino LilyPad
 (C) 2022 Edgardo Rosatti
+Versione dedicata a Pape di 1 millisecondo più veloce
 */
 
-int timer = 500; //Ritardo di accensione tra un led e l'altro espresso in millisecondi
+int timer = 501; //Ritardo di accensione tra un led e l'altro espresso in millisecondi
 
 void setup() {
   for (int myPins = 5; myPins < 13; myPins++) { //Imposta un ciclo da 5 a 12
